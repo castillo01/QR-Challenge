@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Itim&family=Lobster&family=Outfit:wght@100;400;700&family=Roboto:wght@100&display=swap');
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background-color: rgb(194, 215, 254)
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 300px;
+    
+}
+
+.pie {
+    text-align: center;
+}
+
+.textoUno {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+
+.textoDos {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(212, 45%, 89%);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.imagen {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
